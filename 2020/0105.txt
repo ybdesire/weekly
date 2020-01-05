@@ -1,0 +1,112 @@
+# 业界会议
+
+[**AI Assistant Summit**](https://www.re-work.co/events/ai-assistant-summit-san-francisco-2020?utm_source=tryolabs_listing&amp;utm_medium=summit_list&amp;utm_campaign=MP_TryOLabs_AIASS2020)
+* 时间：30 - 31 JANUARY 2020
+* 地点：SAN FRANCISCO
+* 主题
+   * Applying ML & deep learning to create AI Assistants & conversational interfaces to create deeper, more personalised one-to-one customer experiences.
+
+
+# 文章阅读
+
+[**海量用户推送后台系统架构实践-曾振波**](https://ppt.infoq.cn/list/qconbj2019)
+* 关于极光
+   * APP：107万
+   * 移动终端：198亿
+   * 开发者：369万
+* 消息推送面临的挑战
+   * 亿级长连接用户
+   * SDK多版本并存
+   * 消息实时性触达率要求
+   * 移动网络环境复杂性
+   * 海量用户数据存储
+* 推送服务架构
+   * API
+   * 用户筛选
+   * 用户分发
+   * 推送通道
+* 模块化
+   * 功能按照业务拆分解耦
+   * 数据和业务分离
+   * 快速迭代
+   * 模块间通过MP交互
+* 异步化
+   * 减少等待时间，提高系统吞吐量
+   * 消息化请求
+      * MQ
+      * 模块间解耦
+      * IDC数据同步
+   * 异步RPC
+      * ICE：负载均衡、多线程
+* 并行化
+   * 横向扩展处理能力
+   * 数据分片存储
+   * 请求并行处理
+* 缓存化
+   * 热点数据全部缓存
+   * 加快数据访问，减少请求处理时间
+   * 多级缓存
+   * 本地缓存
+   * Redis
+* 程序及系统优化
+   * 内存
+      * 静态分配
+      * 内存池
+      * 内存对齐
+   * 网卡多队列
+   * 用户态协议栈
+* 基础组件服务化
+   * 业务方透明
+   * 统一管理
+   * 屏蔽后端变化
+   * AutoScaleFailover, AutoRecover
+   * JMQ
+   * JCache
+* 链接管理
+   * 量级大，网络复杂，DDOS攻击
+   * 动态管理
+   * 就近接入
+   * 自动扩容，应对网络攻击
+* 系统安全
+   * 网络安全
+      * 对外业务隔离
+      * 异地多机房部署
+      * 健康检查
+      * 业务加快部署及调度
+   * 通信安全
+      * SSL，私有加密协议
+   * 服务安全
+      * 安全校验
+      * 异常行为识别
+      * 过载保护
+      * 白名单、黑名单
+      * 服务降级
+   * 监控及告警
+      * 多维度监控
+      * 告警系统
+* K8S业务部署
+   * 原有系统运维工作复杂，资源利用率低
+   * 弹性扩容
+   * 配置统一管理
+   * 内外集群隔离
+   * 业务模块代码架构调整
+   * 监控体系调整
+* 结束语
+   * 高性能、低成本，高可用，高运维
+   * 只用验证过的开源组件
+   * 自研替代开源
+   * 能并行就不要串行
+   * 能异步就不要同步
+   * 保持简单，快速迭代
+   * 不要过早优化，架构是演进而来的
+
+
+# 业界特快
+
+
+[**谷歌工程实践文档**](https://github.com/xindoo/eng-practices-cn)
+* 评审者指南
+* 开发者指南
+
+
+
