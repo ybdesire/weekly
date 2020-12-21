@@ -22,4 +22,4 @@
 7. k8s
 * 容器化集群部署
 * 能提供一个dashboard展示各个pod、instance当前的状况，能通过网页登陆shell执行命令
-
+* Horizontal Pod Autoscaling（POD水平自动伸缩）
