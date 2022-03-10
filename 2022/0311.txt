@@ -1,0 +1,22 @@
+1. blackhat asia 2022
+   * https://www.blackhat.com/asia-22/briefings/schedule/
+   * ANNOUNCED : FEB 25 2022
+   * mobile领域的，主要是挖洞高手在讲挖洞，少量讲找到新threat
+
+
+2. CVE-2022-0847
+   * DirtyPipe
+   *作者Max，在不断收到客户抱怨文件无法解压的问题后，深入研究这个诡异的问题，并最终确认是linux内核的漏洞（CVE-2022-0847）。作者在下面文章中详细介绍了这个发现漏洞的过程：https://dirtypipe.cm4all.com/
+   * 3月7日才公开披露这个漏洞，具体时间线见：https://www.oschina.net/news/185559/linux-dirty-pipe-vulnerability
+
+
+
+
+
+
+
+
+
+
+
+
